@@ -47,7 +47,7 @@
    </wsdl:binding>
    <wsdl:service name="ws">
       <wsdl:port binding="calcB" name="calc">
-         <soap:address location="http://localhost:8001/wscalc1" />
+         <soap:address location="http://ec2-13-127-151-64.ap-south-1.compute.amazonaws.com:8001/wscalc1" />
       </wsdl:port>
    </wsdl:service>
 </wsdl:definitions>
